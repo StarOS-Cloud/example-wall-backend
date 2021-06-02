@@ -5,8 +5,6 @@
 ### Enviroument Variable
 
 - **required** MYSQL_HOST 
-- optional MYSQL_PORT 
-- optional MYSQL-USER 
 - **required** MYSQL_PWD
 
 ### Docker command
