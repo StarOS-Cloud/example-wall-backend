@@ -12,7 +12,7 @@ def get_all_comments():
 @api.route('', methods=["POST"])
 @API.handle
 def create_comment():
-    title = request.json.get("title")
+    title = "News:" + request.json.get("title")
     content = request.json.get("content")
     comment = Comment(title, content)
     comment.inserted()
